@@ -20,10 +20,10 @@ a:focus {
     transition: all 0.3s;
 }
 .form-control:focus{box-shadow: none !important;}
-.navbar {padding:0px;background: #fff;border: none;border-radius: 0;margin-bottom:0px;box-shadow: 2px 2px 5px #aaa;}
-/* .navbar ul.navbar-nav > li{} */
+.navbar {padding:0px;background: #fff;border: none;border-radius: 0;margin-bottom:0px;box-shadow: 2px 2px 5px #aaa}
+.navbar ul.navbar-nav > li{}
 .navbar ul.navbar-nav li:last-child{border: none}
-/* .navbar ul.navbar-nav li .prm-btn{} */
+.navbar ul.navbar-nav li .prm-btn{}
 .navbar-btn {box-shadow: none;outline: none !important;border: none;}
 .t-0{top: 0rem !important}
 .brd-rounded5{border-radius:5px}
@@ -32,7 +32,7 @@ a:focus {
 .btn-tags{border-color: #E4E7EE;font-size:12px;color:#3a405b !important;line-height:28px;padding:0 10px}
 .btn-tags.selected, .btn-tags:hover{border: none;box-shadow: 0px 6px 13px #ccc;}
 .btn-language{background-color: #FFFEAE;border-color: #FFFEAE;color:#3a405b !important}
-button.create-post{background:url(./images/dropdown-cross-btn.png)no-repeat 10px 6px; padding-left:40px  } 
+button.create-post{background:url(./images/dropdown-cross-btn.png)no-repeat 10px 6px; padding-left:40px  }
 button.create-post:hover{background:url(./images/create-post.png)no-repeat 10px 6px #2392C0}
 a.create-post{background:url(./images/dropdown-cross-btn.png)no-repeat 10px 6px; padding-left:40px  }
 a.create-post:hover{background:url(./images/create-post.png)no-repeat 10px 6px #2392C0; color: #fff!important}
@@ -42,7 +42,7 @@ a.create-post:hover{background:url(./images/create-post.png)no-repeat 10px 6px #
 .card-box-dotted{min-width: 0;word-wrap: break-word;background-color: #fff;background-clip: border-box;border: 2px dashed rgba(0,0,0,.125);border-radius: .25rem;}
 .card-box{min-width: 0;word-wrap: break-word;background-color: #fff;background-clip: border-box;border: 1px solid rgba(0,0,0,.125);border-radius: .25rem;}
 .search-form{border: 1px solid #dfdfdf;border-radius: 25px; padding: 3px 6px;width:50%}
-/* .search-form .search-btn{} */
+.search-form .search-btn{}
 .search-form input[type="search"].form-control, .search-form .search-btn{border:none;background:none}
 .prm-btn{/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2392c0+0,2392c0+20,3181b6+71,397ab4+86,3a75af+100 */
 background: rgb(35,146,192); /* Old browsers */
@@ -210,10 +210,10 @@ opacity: 0.2;
 background-position: -24px -53px;
 }  
 .comment ul li a sup{top:-10px;left:10px;position: absolute;}
-/* .comment ul.coments-use{} */
+.comment ul.coments-use{}
 .comment ul.coments-use li{float: left;padding: 0 15px;border-right: 1px solid #E0E0E0;color: #21283e;font-size: 18px;}
 .comment ul.coments-use li:last-child{border:none;padding-right: 0}
-/* .comment ul.coments-use li a{display: inline-block;float: left;position: relative;} */
+.comment ul.coments-use li a{display: inline-block;float: left;position: relative;}
 .comment ul.coments-use li a > img{margin-right: 10px;}
 .comment ul.coments-use li span.total{display: inline-block;font-size: 18px;line-height: 30px;color: #21283e;}
 
@@ -224,7 +224,7 @@ background-position: -24px -53px;
 
 .widget-section .mobi-app{background: url(images/card2.png)no-repeat;}
 
-/* .widget-section{} */
+.widget-section{}
 .widget-section figure.figure{position: relative}
 .widget-section figure.figure figcaption.figure-caption{position:absolute;top: 3rem;width: 80%}
 .widget-section figure.figure figcaption.figure-caption h2.caption-heading{font-size:28px;font-weight:600;color:#192035;}
@@ -241,7 +241,7 @@ background-position: -24px -53px;
 /* User Dropdown */
 .dropdown-menu.userdropdown{right:0;left:inherit;top:130%;min-width:18rem;padding:0.75rem}
 .dropdown-menu.userdropdown h5{font-size: 18px;color:#21283e;background:#f3f9ff;line-height:70px;padding-left: 22px; padding-right: 22px;font-weight:600 }
-/* .dropdown-menu.userdropdown ul{ } */
+.dropdown-menu.userdropdown ul{ }
 .dropdown-menu.userdropdown ul li, .dropdown-menu.filterdropdown ul li{margin-bottom:15px;margin-top:15px}
 .dropdown-menu.userdropdown ul li a, .dropdown-menu.filterdropdown ul li a{font-size:18px !important;color:#21283e !important;background:none;padding-left:22px !important }
 .dropdown-menu.userdropdown ul li a:hover, .dropdown-menu.filterdropdown ul li a:hover{color:#3B99C3 !important}
@@ -312,14 +312,14 @@ footer{background: #1A1F33; padding-top: 25px; padding-bottom: 25px;color: #E1E4
 footer .copy-right{font-size:12px;color:#8F94A5; }
 footer .copy-right a{color:#2391BF}
 footer ul{list-style:none }
-/* footer ul li{} */
+footer ul li{}
 footer ul li a{font-size:13px; color: #E1E4EC; line-height:25px }
 
 /* ---------------------------------------------------
     MODLA STYLE
 ----------------------------------------------------- */
-/* #createTopic .modal-dialog{}
-#createTopic .modal-dialog .modeal-body {} */
+#createTopic .modal-dialog{}
+#createTopic .modal-dialog .modeal-body {}
 #createTopic .modal-dialog .modal-body .form-group::placeholder {
   color: red!important;
   opacity: 1; /* Firefox */

@@ -1,16 +1,12 @@
 import React from 'react';
 import './style.css';
-//import Navbar from './Navbar.js';
+import Header from './Header.js';
 import Footer from './Footer.js';
-import Bodyhead from './Bodyhead.js';
-import Body from './Body.js';
-import Body1 from './Body1.js';
-import Body2 from './Body2.js';
+import Posts from './Posts.js';
 import Rightsidebar from './Rightsidebar.js';
-import Header from './Header';
 
 
-function Topic() {
+function Postdetails() {
     return (
         <div>
             <Header/>
@@ -20,16 +16,11 @@ function Topic() {
                     <div class="container-fluid">
                         <div class="row clearfix">
                             {/* <!-- section --> */}
-                            <div class="col-md-9 pt-5">
                             
-                                <Bodyhead />
-                                <Body />
-                                <Body2/>
-                                <Body1 />
-                                <Body />
-                                <Body2/>
+                            
+                                <Posts/>
                                
-                            </div>
+                            
                             {/* <!-- // --> */}
                             {/* <!-- Right Sidebar --> */}
                             <div class="col-md-3">
@@ -46,4 +37,4 @@ function Topic() {
     );
 }
 
-export default Topic;
+export default Postdetails;

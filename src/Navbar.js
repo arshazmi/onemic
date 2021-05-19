@@ -11,7 +11,8 @@ import faq from "./images/faq.png";
 import help from "./images/icon--help.png" ;
 import setting from "./images/icon-setting.png";
 import logout from "./images/icon-logout.png";
-
+import CreatePost from './CreatePost';
+import CreateTopic from './CreateTopic';
 
 const Navbar = () => {
   return (
